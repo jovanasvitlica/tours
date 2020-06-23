@@ -1,0 +1,33 @@
+.header {
+  height: 95vh;
+  /* background-image: linear-gradient( */
+  /* to right bottom, */
+  /* rgba(194, 252, 242, 0.609), */
+  /* rgba(0, 195, 133, 0.609) */
+  /* ), */
+  /* url(../img/background.jpg); */
+  background-image: url(../img/IMG_2817.JPG);
+  opacity: 0.9;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  position: relative;
+  //header__logo-box
+  &__logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+  }
+  //.header menjam sa &
+  &__logo {
+    height: 3.5rem;
+    color: $color-primary-light;
+  }
+  &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}

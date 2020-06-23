@@ -1,0 +1,14 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+/*1 rem 10 px a ovaj je root i sad sve prema njemu podesavamo,62.5% toliko je 1rem */
+html {
+  font-size: 10px;
+}
+body {
+  box-sizing: border-box;
+}
